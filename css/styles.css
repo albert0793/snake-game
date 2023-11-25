@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: .75rem;
+      overflow: hidden;
+
+}
+.wrapper{
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -10px 15px 34px rgba(0,0,0,.18);
+  background: #FFFFFF;
+}
+.header{
+  background: #3D3D3D;
+  display: flex;
+  justify-content: space-between;
+  padding: .75rem;
+}
+.header span{
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.wrapper .board{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.9);
+  display: grid;
+  grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+}
+
+.board .food{
+  background: #FF00C3;
+}
+.board .head{
+  background: #1D00FF;
+ 
+}
+
+.board .heart{
+  background: #FF0000;
+}
+.board .head:nth-last-child(20) {
+  opacity: 5%;
+}
+.board .head:nth-last-child(19) {
+  opacity: 10%;
+}
+.board .head:nth-last-child(18) {
+  opacity: 15%;
+}
+.board .head:nth-last-child(17) {
+  opacity: 20%;
+}
+.board .head:nth-last-child(16) {
+  opacity: 25%;
+}
+.board .head:nth-last-child(15) {
+  opacity: 30%;
+}
+.board .head:nth-last-child(14) {
+  opacity: 35%;
+}
+.board .head:nth-last-child(13) {
+  opacity: 40%;
+}
+.board .head:nth-last-child(12) {
+  opacity: 45%;
+}
+.board .head:nth-last-child(11) {
+  opacity: 50%;
+}
+.board .head:nth-last-child(10) {
+  opacity: 55%;
+}
+.board .head:nth-last-child(9) {
+  opacity: 60%;
+}
+.board .head:nth-last-child(8) {
+  opacity: 65%;
+}
+.board .head:nth-last-child(7) {
+  opacity: 70%;
+}
+.board .head:nth-last-child(6) {
+  opacity: 75%;
+}
+.board .head:nth-last-child(5) {
+  opacity: 80%;
+}
+.board .head:nth-last-child(4) {
+  opacity: 85%;
+}
+.board .head:nth-last-child(3) {
+  opacity: 90%;
+}
+.board .head:nth-last-child(2) {
+  opacity: 95%;
+}
+.controls{
+  display: flex;
+  justify-content: space-between;
+}
+.controls div{
+  width: 100%;
+  border: solid 1px rgb(255,255,255);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+ 
+}
+.controls div i{
+  font-size: 32px;
+  color: #FFFFFF;
+}
